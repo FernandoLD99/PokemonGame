@@ -31,7 +31,7 @@
             checkAnswer(selectedId: number){
                 this.showPokemon = true;
                 this.showAnswer = true;
-                this.pokemonArr = [];
+                this.pokemonArr = []
 
                 if(!this.pokemon) return;
 
@@ -44,7 +44,8 @@
 
             newGame(){
                 this.showPokemon = false;
-                this.showAnswer = false;  
+                this.showAnswer = false;
+                
                 this.pokemon = null;
                 this.mixPokemonArr();
             }
